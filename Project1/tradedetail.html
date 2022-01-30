@@ -1,8 +1,101 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>Home Page</title>
-        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <link rel="stylesheet" href="./stylesheet/products.css">
+        <link rel="stylesheet" href="./stylesheet/tradingpagestyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav>
+            <div class="navcontainer">
+                <div class="navup">
+                    <div class="navL">
+                        <a href="index.html"><img class="logo" alt="logo" src="./images/logo.png"></a>
+                    </div>
+                    <div class="navR">
+                        <ul>
+                            
+                            <li><a href="newtrade.html">Start Trading!</a></li>
+                            <li><a href="">Login</a></li>
+                            <li><a href="">SignUp</a></li>
+                           
+                        </ul>
+    
+                    </div>
+                </div>
+                <div class="navdown">
+                    <a href="products.html">Trades</a>
+                </div>
+               
+            </div>
+        </nav>
+
+        <main class="productscontainer_details">
+
+            <div class="rowdisc">
+                <div class="discriptioncol">
+                    <img class="cardimg" alt="stromatsea" src="./images/Strom_at_sea.jpeg">
+                </div>
+                <div class="nameofart">
+                        <h3>The Strom at the Sea</h3>
+                        <p>by Rembrandt</p>
+                </div>
+                <div class="discriptioncol">
+                    <p class="discfontsize">Are you interested in this Art?
+                        <br>
+                        <button class="discbutton " type="button"> Trade It </button>
+                        <button class="discbutton discmargin" type="button"> Rate It </button>
+                    </p>
+                </div>
+            </div>
+
+            <div class="description">
+                <h3>DETAILS</h3>
+                <p>Known to be one of Rembrandt’s most dynamic and dramatic works of art.
+                    Rembrandts only seascape painting, depicting Christ in the Storm on the Sea of Galilee.
+                    The biblical scene represents nature against human vulnerability; however, it also shows faith, with seemingly calm and unbothered Jesus.
+                    The large-scale image has overwhelming effects to seize our attention and immerse us in an unfolding pictorial drama.
+                    The painting is of recognition for not only depicting sacred history but also for the vivid brushstrokes that bring the canvas to life.</p>
+            </div>
+
+
+
+        </main>
+
+        <footer class="footer">
+            <div class="footerL">
+                
+                <div class="copyrighttext">
+                    <span class="copy_icon"><i class="fa fa-copyright"></i></span>
+                    <h3> TRADE PRO </h3>
+                </div>
+                <a class="about_btn" href="#"> ABOUT </a>
+                <a class="contact_btn" href=""> CONTACT </a>
+
+            </div>
+            <div class="footerR">
+                <span class="twiticon"><i class="fa fa-twitter-square"></i></span>
+                <span class="facebkicon"><i class="fa fa-facebook-square"></i></span>
+            </div>
+        </footer>
+    </body>
+    
+</html>
+
+
+
+
+
+<!--<!DOCTYPE html>-->
+<!-- <html>
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="./stylesheet/index.css">
+        <link rel="stylesheet" href="./stylesheet/tradingpagestyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
     
@@ -11,25 +104,74 @@
                 <ul>
                     <li><a href=""id="floatright">Login</a></li>
                     <li><a href=""id="floatright">SignUp</a></li>
-                    <li><a href=""id="floatright">Start Trading!</a></li>
+                    <li><a href="newtrade.html"id="floatright">Start Trading!</a></li> -->
                     <!-- <li><img id="logo" src ="C:\Users\Harsh\Desktop\NBAD\Project1\images\img.png" ></li> -->
-                    <li><p>tradeit</p></li>
+                    <!-- <li><p>tradeit</p></li> -->
                     
                     <!-- <li><a href=""id="floatleft">View Marketplace</a> </li> -->
-                    <li><a href="C:\Users\Harsh\Desktop\NBAD\Project1\tradepage.html" id="floatleft1">Trades</a></li>
+                    <!-- <li><a href="C:\Users\Harsh\Desktop\NBAD\Project1\tradepage.html" id="floatleft1">Trades</a></li>
                 </ul>
             </nav>
         </div>
 
         <div>
-            <section class="intro">
+            <section class="heading">
                 <p>Welcome to Trade Details</p>
+                <hr size="1" width="90%" color="black">
+                <br> <br>
             </section>
         </div>
 
+        <div class="rowdisc">
+
+            <div class="discriptioncol">
+                <img src="./images/Strom at sea.jpeg" style="width:100%">
+            </div>
+
+            <div class="nameofart">
+                
+                    <h3>The Strom at the Sea</h3>
+                    <p>by Rembrandt</p>
+                
+            </div>
+
+            <div class="discriptioncol">
+                <p class="discfontsize">Are you interested in this Art?
+                    <br> <br>
+                    <button class="discbutton " type="button"> Trade It </button>
+                    <button class="discbutton discmargin" type="button"> Rate It </button>
+                </p>
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="description">
+            <h3>DETAILS</h3>
+            <p>Known to be one of Rembrandt’s most dynamic and dramatic works of art.
+                Rembrandts only seascape painting, depicting Christ in the Storm on the Sea of Galilee.
+                The biblical scene represents nature against human vulnerability; however, it also shows faith, with seemingly calm and unbothered Jesus.
+                The large-scale image has overwhelming effects to seize our attention and immerse us in an unfolding pictorial drama.
+                The painting is of recognition for not only depicting sacred history but also for the vivid brushstrokes that bring the canvas to life.</p>
+        </div>
+
         <div class="footer">
-            <p>footer</p>
+            <div class="footerL">
+                
+                <div class="copyrighttext">
+                    <span class="copy_icon"><i class="fa fa-copyright"></i></span>
+                    <h3> TRADE IT </h3>
+                </div>
+                <a class="about_btn" href="#"> ABOUT </a>
+                <a class="contact_btn" href=""> CONTACT </a>
+
+            </div>
+            <div class="footerR">
+                <span class="twiticon"><i class="fa fa-twitter-square"></i></span>
+                <span class="facebkicon"><i class="fa fa-facebook-square"></i></span>
+            </div>
         </div>
     
     </body>
-</html>
+</html> -->

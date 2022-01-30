@@ -1,0 +1,300 @@
+/* * {
+  margin: 0;
+} */
+
+nav,
+body {
+  margin: 0;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+nav {
+  position: relative;
+  top: 0;
+  height: 18vh;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.productscontainer {
+  height: 73vh;
+  background-color: lightgray;
+  width: 100%;
+  overflow: scroll;
+  text-align: center;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  height: 10vh;
+  background-color: black;
+  justify-content: space-between;
+  z-index: 100;
+  display: flex;
+}
+.navcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardimg {
+  height: 400px;
+}
+
+.logo {
+  height: 70px;
+  margin-left: 20px;
+}
+
+.navup {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  align-items: center;
+}
+
+.navR > ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+.navdown {
+  padding: 10px;
+  margin-left: 25px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navR {
+  width: 20%;
+}
+
+.row {
+  margin: 0 10px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 8%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 23%;
+  padding: 0 10px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  background-color: #333333;
+  color: white;
+}
+
+/* .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px; */
+
+/* Responsive columns - one column layout (vertical) on small screens  */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .respon {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.footerL {
+  padding-left: 20px;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.footerR {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+  justify-content: space-between;
+  width: 8%;
+}
+
+.footerL,
+.copyrighttext {
+  display: flex;
+  align-items: center;
+}
+
+.copyrighttext {
+  margin-right: 20px;
+  color: white;
+}
+
+.copy_icon {
+  padding-right: 10px;
+  color: white;
+}
+
+.twiticon {
+  font-size: 27px;
+  color: white;
+}
+
+.facebkicon {
+  font-size: 27px;
+  color: white;
+}
+
+.footerL > a {
+  text-decoration: none;
+  color: white;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 10%;
+}
+
+/* .footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: #333333;
+  color: white;
+  /* text-align: center; */
+/* display: flex;
+  justify-content: space-between;
+} */
+
+/* .footerL,
+.copyrighttext {
+  display: flex;
+  align-items: center;
+} */
+
+/* .copyrighttext {
+  margin-right: 20px;
+}
+
+.copy_icon {
+  padding-right: 10px;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.nav {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  top: 0;
+  z-index: 100;
+  background-color: #333;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  width: 100%;
+} */
+
+/* li #floatright {
+  float: right;
+  margin-right: 20px;
+}
+
+li #floatleft1 {
+  float: left;
+  margin-left: 60px;
+  top: 0;
+}
+.navcontainer {
+  display: flex;
+  width: 100%;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+} */
+
+/* .navcontainer > img {
+  /* font-family: cursive;
+  font-weight: 900;
+  font-size: 25px; */
+/* color: white; */
+/* margin-left: 15px;
+  height: 75px;
+  padding: 10px 30px; */
+/* } */
+
+/* Change the link color to #111 (black) on hover */
+/* li a:hover {
+  background-color: #111;
+} */
+
+/* .footerR {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+  justify-content: space-between;
+  width: 5%;
+}
+
+.twiticon {
+  font-size: 27px;
+}
+
+.facebkicon {
+  font-size: 27px;
+}
+
+.footerL {
+  padding-left: 20px;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.footerL > a {
+  text-decoration: none;
+  color: white;
+} */
